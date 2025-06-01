@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Configuration;
                 description = "TestApp API 명세",
                 version = "v1")
 )
+
 public class SwaggerConfig {
     @Bean
     public GroupedOpenApi OpenApi() {
