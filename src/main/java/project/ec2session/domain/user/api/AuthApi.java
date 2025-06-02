@@ -20,7 +20,7 @@ public interface AuthApi {
                     content = @Content(mediaType = "application/json", examples = {
                             @ExampleObject(value = """
 						  			{
-							  			"accessToken" : "<accessToken>",
+							  			"accessToken": "<accessToken>",
 							  		}
 							  		""")
                     })),
@@ -28,13 +28,13 @@ public interface AuthApi {
                 content = @Content(mediaType = "application/json", examples = {
                         @ExampleObject(name = "존재하지 않는 사용자", value = """
                                 {
-                                    "status" : 404,
-                                    "message" : "정보를 정확히 입력해주세요."
+                                    "status": 404,
+                                    "message": "정보를 정확히 입력해주세요."
                                 """),
                         @ExampleObject(name = "비밀번호 틀림", value = """
                                 {
-                                    "status" : 404,
-                                    "message" : "잘못된 비밀번호입니다."
+                                    "status": 404,
+                                    "message": "잘못된 비밀번호입니다."
                                 """)
                 }))
     })
@@ -48,7 +48,7 @@ public interface AuthApi {
                     content = @Content(mediaType = "application/json", examples = {
                             @ExampleObject(value = """
 					     			{
-							  			"userId" : "1"
+							  			"userId": "1"
 							  		}
 							  		""")
                     })),
@@ -56,10 +56,10 @@ public interface AuthApi {
                     content = @Content(mediaType = "application/json", examples = {
                             @ExampleObject(value = """
                                     {
-                                        "status" : 400,
-                                        "password" : "비밀번호는 필수 입력 값입니다.",
-                                        "nickname" : "닉네임은 필수 입력 값입니다.",
-                                        "username" : "아이디는 필수 입력 값입니다."
+                                        "status": 400,
+                                        "password": "비밀번호는 필수 입력 값입니다.",
+                                        "nickname": "닉네임은 필수 입력 값입니다.",
+                                        "username": "아이디는 필수 입력 값입니다."
                                     """)
                     }))
     })

@@ -33,8 +33,8 @@ public interface UserApi {
                     content = @Content(mediaType = "application/json", examples = {
                             @ExampleObject(value = """
                                     {
-                                        "status" : 404,
-                                        "message" : "존재하지 않는 회원입니다."
+                                        "status": 404,
+                                        "message": "존재하지 않는 회원입니다."
                                     }
                                     """)
                     }))
