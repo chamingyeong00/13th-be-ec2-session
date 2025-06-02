@@ -30,11 +30,13 @@ public interface AuthApi {
                                 {
                                     "status": 404,
                                     "message": "정보를 정확히 입력해주세요."
+                                }
                                 """),
                         @ExampleObject(name = "비밀번호 틀림", value = """
                                 {
                                     "status": 404,
                                     "message": "잘못된 비밀번호입니다."
+                                }
                                 """)
                 }))
     })
