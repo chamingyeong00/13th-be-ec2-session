@@ -48,13 +48,13 @@ public interface UserApi {
                                     [
                                               {
                                                   "userId": 1,
-                                                  "username": "test1",
-                                                  "nickname": "테스터1"
+                                                  "username": "mingyeong",
+                                                  "nickname": "MG"
                                               },
                                               {
                                                   "userId": 2,
-                                                  "username": "test2",
-                                                  "nickname": "테스터2"
+                                                  "username": "gildong",
+                                                  "nickname": "GD"
                                               }
                                     ]
                                     """)
