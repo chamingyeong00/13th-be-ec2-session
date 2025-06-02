@@ -24,8 +24,8 @@ public interface UserApi {
                             @ExampleObject(value = """
                                     {
                                     	"userId": 1,
-                                                                 "username": "test",
-                                                                 "nickname": "테스터"
+                                        "username": "mingyeong",
+                                        "nickname": "MG"
                                     }
                                     """)
                     })),

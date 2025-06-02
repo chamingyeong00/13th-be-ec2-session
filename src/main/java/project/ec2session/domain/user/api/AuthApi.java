@@ -20,7 +20,7 @@ public interface AuthApi {
                     content = @Content(mediaType = "application/json", examples = {
                             @ExampleObject(value = """
 						  			{
-							  			"accessToken": "<accessToken>",
+							  			"accessToken": "<accessToken>"
 							  		}
 							  		""")
                     })),
